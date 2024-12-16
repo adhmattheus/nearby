@@ -1,6 +1,6 @@
 import { Text, View } from "react-native"
 
-// import { Steps } from "@/components/steps"
+import { Steps } from "@/components/steps"
 import { Welcome } from "@/components/welcome"
 
 export default function Index() {
@@ -8,7 +8,7 @@ export default function Index() {
     <View style={{ flex: 1, padding: 40, gap: 40 }}>
       <Text>Chama</Text>
        <Welcome />
-       {/* <Steps />  */}
+       <Steps /> 
     </View>
   )
 }
